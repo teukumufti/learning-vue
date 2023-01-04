@@ -1,7 +1,12 @@
 <template>
   <nav>
-    <router-link to="/">Home</router-link> |
-    <router-link to="/about">About</router-link>
+    <router-link to="/">Data and Method</router-link> |
+    <router-link to="/databinding">Data Binding</router-link> |
+    <router-link to="/two-way-data-binding">Two Way Data Binding</router-link> |
+    <router-link to="/conditions-and-loops">Conditions And Loops</router-link> |
+    <router-link to="/lifecycle-hooks">Lifecycle Hooks</router-link> |
+    <router-link to="/computed-properties">Computed Properties</router-link> |
+
   </nav>
   <router-view/>
 </template>

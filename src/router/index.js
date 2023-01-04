@@ -1,5 +1,5 @@
 import { createRouter, createWebHistory } from 'vue-router'
-import HomeView from '../views/HomeView.vue'
+import HomeView from '../views/Task1.vue'
 
 const routes = [
   {
@@ -8,15 +8,43 @@ const routes = [
     component: HomeView
   },
   {
-    path: '/about',
-    name: 'about',
+    path: '/databinding',
+    name: 'Task2',
     // route level code-splitting
     // this generates a separate chunk (about.[hash].js) for this route
     // which is lazy-loaded when the route is visited.
     component: function () {
-      return import(/* webpackChunkName: "about" */ '../views/AboutView.vue')
+      return import(/* webpackChunkName: "about" */ '../views/Task2.vue')
     }
-  }
+  },
+  {
+    path: '/two-way-data-binding',
+    name: 'Task3',
+    component: function () {
+      return import('../views/Task3.vue')
+    }
+  },
+  {
+    path: '/conditions-and-loops',
+    name: 'Task4',
+    component: function () {
+      return import('../views/Task4.vue')
+    }
+  },
+  {
+    path: '/lifecycle-hooks',
+    name: 'Task5',
+    component: function () {
+      return import('../views/Task5.vue')
+    }
+  },
+  {
+    path: '/computed-properties',
+    name: 'Task6',
+    component: function () {
+      return import('../views/Task6.vue')
+    }
+  },
 ]
 
 const router = createRouter({
