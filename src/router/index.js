@@ -45,6 +45,20 @@ const routes = [
       return import('../views/Task6.vue')
     }
   },
+  {
+    path: '/props',
+    name: 'Task7',
+    component: function () {
+      return import('../views/Task7.vue')
+    }
+  },
+  {
+    path: '/custom-event',
+    name: 'Task8',
+    component: function () {
+      return import('../views/Task8.vue')
+    }
+  },
 ]
 
 const router = createRouter({

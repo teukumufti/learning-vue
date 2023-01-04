@@ -6,6 +6,8 @@
     <router-link to="/conditions-and-loops">Conditions And Loops</router-link> |
     <router-link to="/lifecycle-hooks">Lifecycle Hooks</router-link> |
     <router-link to="/computed-properties">Computed Properties</router-link> |
+    <router-link to="/props">Props</router-link> |
+    <router-link to="/custom-event">Custom Event</router-link> |
 
   </nav>
   <router-view/>
